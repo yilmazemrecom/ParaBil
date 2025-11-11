@@ -30,22 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_ozet));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.kryptonGroup3 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
+            this.kryptonGroup3 = new Krypton.Toolkit.KryptonGroup();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.aylik_gider = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.kryptonGroup2 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
+            this.kryptonGroup2 = new Krypton.Toolkit.KryptonGroup();
             this.aylik_gelir = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.kryptonGroup1 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
+            this.kryptonGroup1 = new Krypton.Toolkit.KryptonGroup();
             this.mevcut_bakiye = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.son5gelir = new ComponentFactory.Krypton.Toolkit.KryptonListBox();
-            this.hesaplar = new ComponentFactory.Krypton.Toolkit.KryptonListBox();
-            this.son5gider = new ComponentFactory.Krypton.Toolkit.KryptonListBox();
+            this.son5gelir = new Krypton.Toolkit.KryptonListBox();
+            this.hesaplar = new Krypton.Toolkit.KryptonListBox();
+            this.son5gider = new Krypton.Toolkit.KryptonListBox();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroup3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroup3.Panel)).BeginInit();
@@ -101,9 +101,9 @@
             this.kryptonGroup3.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.kryptonGroup3.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.kryptonGroup3.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonGroup3.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroup3.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonGroup3.StateCommon.Border.Rounding = 18;
             this.kryptonGroup3.StateCommon.Border.Width = 1;
             this.kryptonGroup3.TabIndex = 2;
@@ -160,9 +160,9 @@
             this.kryptonGroup2.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.kryptonGroup2.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.kryptonGroup2.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonGroup2.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroup2.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonGroup2.StateCommon.Border.Rounding = 18;
             this.kryptonGroup2.StateCommon.Border.Width = 1;
             this.kryptonGroup2.TabIndex = 2;
@@ -219,9 +219,9 @@
             this.kryptonGroup1.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.kryptonGroup1.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.kryptonGroup1.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonGroup1.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroup1.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonGroup1.StateCommon.Border.Rounding = 18;
             this.kryptonGroup1.StateCommon.Border.Width = 1;
             this.kryptonGroup1.TabIndex = 2;
@@ -281,32 +281,32 @@
             // 
             // son5gelir
             // 
-            this.son5gelir.BorderStyle = ComponentFactory.Krypton.Toolkit.PaletteBorderStyle.GridHeaderColumnList;
+            this.son5gelir.BorderStyle = Krypton.Toolkit.PaletteBorderStyle.GridHeaderColumnList;
             this.son5gelir.Dock = System.Windows.Forms.DockStyle.Fill;
             this.son5gelir.Location = new System.Drawing.Point(383, 10);
             this.son5gelir.Margin = new System.Windows.Forms.Padding(10);
             this.son5gelir.Name = "son5gelir";
             this.son5gelir.OverrideFocus.Item.Border.Color1 = System.Drawing.Color.Black;
             this.son5gelir.OverrideFocus.Item.Border.Color2 = System.Drawing.Color.Black;
-            this.son5gelir.OverrideFocus.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gelir.OverrideFocus.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gelir.OverrideFocus.Item.Border.Width = 1;
-            this.son5gelir.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.son5gelir.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.son5gelir.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.son5gelir.Size = new System.Drawing.Size(353, 384);
             this.son5gelir.StateCheckedNormal.Item.Border.Color1 = System.Drawing.Color.Black;
             this.son5gelir.StateCheckedNormal.Item.Border.Color2 = System.Drawing.Color.Black;
             this.son5gelir.StateCheckedNormal.Item.Border.ColorAngle = 45F;
-            this.son5gelir.StateCheckedNormal.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gelir.StateCheckedNormal.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gelir.StateCheckedNormal.Item.Border.Width = 1;
             this.son5gelir.StateCheckedTracking.Item.Border.Color1 = System.Drawing.Color.Transparent;
             this.son5gelir.StateCheckedTracking.Item.Border.Color2 = System.Drawing.Color.Transparent;
-            this.son5gelir.StateCheckedTracking.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gelir.StateCheckedTracking.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gelir.StateCheckedTracking.Item.Content.ShortText.Color1 = System.Drawing.Color.Black;
             this.son5gelir.StateCheckedTracking.Item.Content.ShortText.Color2 = System.Drawing.Color.Black;
             this.son5gelir.StateCommon.Back.Color1 = System.Drawing.Color.White;
@@ -315,15 +315,15 @@
             this.son5gelir.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.son5gelir.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.son5gelir.StateCommon.Border.ColorAngle = 45F;
-            this.son5gelir.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gelir.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gelir.StateCommon.Border.Rounding = 18;
             this.son5gelir.StateCommon.Border.Width = 1;
             this.son5gelir.StateCommon.Item.Border.ColorAngle = 1F;
-            this.son5gelir.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gelir.StateCommon.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gelir.StateCommon.Item.Content.ShortText.Color1 = System.Drawing.Color.Black;
             this.son5gelir.StateCommon.Item.Content.ShortText.Color2 = System.Drawing.Color.Black;
             this.son5gelir.StateCommon.Item.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -331,39 +331,39 @@
             this.son5gelir.StateTracking.Item.Back.Color2 = System.Drawing.Color.Transparent;
             this.son5gelir.StateTracking.Item.Border.Color1 = System.Drawing.Color.Transparent;
             this.son5gelir.StateTracking.Item.Border.Color2 = System.Drawing.Color.Transparent;
-            this.son5gelir.StateTracking.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gelir.StateTracking.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gelir.TabIndex = 7;
             // 
             // hesaplar
             // 
-            this.hesaplar.BorderStyle = ComponentFactory.Krypton.Toolkit.PaletteBorderStyle.GridHeaderColumnList;
+            this.hesaplar.BorderStyle = Krypton.Toolkit.PaletteBorderStyle.GridHeaderColumnList;
             this.hesaplar.Dock = System.Windows.Forms.DockStyle.Fill;
             this.hesaplar.Location = new System.Drawing.Point(10, 10);
             this.hesaplar.Margin = new System.Windows.Forms.Padding(10);
             this.hesaplar.Name = "hesaplar";
             this.hesaplar.OverrideFocus.Item.Border.Color1 = System.Drawing.Color.Black;
             this.hesaplar.OverrideFocus.Item.Border.Color2 = System.Drawing.Color.Black;
-            this.hesaplar.OverrideFocus.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hesaplar.OverrideFocus.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.hesaplar.OverrideFocus.Item.Border.Width = 1;
-            this.hesaplar.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.hesaplar.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.hesaplar.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.hesaplar.Size = new System.Drawing.Size(353, 384);
             this.hesaplar.StateCheckedNormal.Item.Border.Color1 = System.Drawing.Color.Black;
             this.hesaplar.StateCheckedNormal.Item.Border.Color2 = System.Drawing.Color.Black;
             this.hesaplar.StateCheckedNormal.Item.Border.ColorAngle = 45F;
-            this.hesaplar.StateCheckedNormal.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hesaplar.StateCheckedNormal.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.hesaplar.StateCheckedNormal.Item.Border.Width = 1;
             this.hesaplar.StateCheckedTracking.Item.Border.Color1 = System.Drawing.Color.Transparent;
             this.hesaplar.StateCheckedTracking.Item.Border.Color2 = System.Drawing.Color.Transparent;
-            this.hesaplar.StateCheckedTracking.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hesaplar.StateCheckedTracking.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.hesaplar.StateCheckedTracking.Item.Content.ShortText.Color1 = System.Drawing.Color.Black;
             this.hesaplar.StateCheckedTracking.Item.Content.ShortText.Color2 = System.Drawing.Color.Black;
             this.hesaplar.StateCommon.Back.Color1 = System.Drawing.Color.White;
@@ -372,15 +372,15 @@
             this.hesaplar.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.hesaplar.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.hesaplar.StateCommon.Border.ColorAngle = 45F;
-            this.hesaplar.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hesaplar.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.hesaplar.StateCommon.Border.Rounding = 18;
             this.hesaplar.StateCommon.Border.Width = 1;
             this.hesaplar.StateCommon.Item.Border.ColorAngle = 1F;
-            this.hesaplar.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hesaplar.StateCommon.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.hesaplar.StateCommon.Item.Content.ShortText.Color1 = System.Drawing.Color.Black;
             this.hesaplar.StateCommon.Item.Content.ShortText.Color2 = System.Drawing.Color.Black;
             this.hesaplar.StateCommon.Item.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -388,39 +388,39 @@
             this.hesaplar.StateTracking.Item.Back.Color2 = System.Drawing.Color.Transparent;
             this.hesaplar.StateTracking.Item.Border.Color1 = System.Drawing.Color.Transparent;
             this.hesaplar.StateTracking.Item.Border.Color2 = System.Drawing.Color.Transparent;
-            this.hesaplar.StateTracking.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hesaplar.StateTracking.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.hesaplar.TabIndex = 6;
             // 
             // son5gider
             // 
-            this.son5gider.BorderStyle = ComponentFactory.Krypton.Toolkit.PaletteBorderStyle.GridHeaderColumnList;
+            this.son5gider.BorderStyle = Krypton.Toolkit.PaletteBorderStyle.GridHeaderColumnList;
             this.son5gider.Dock = System.Windows.Forms.DockStyle.Fill;
             this.son5gider.Location = new System.Drawing.Point(756, 10);
             this.son5gider.Margin = new System.Windows.Forms.Padding(10);
             this.son5gider.Name = "son5gider";
             this.son5gider.OverrideFocus.Item.Border.Color1 = System.Drawing.Color.Black;
             this.son5gider.OverrideFocus.Item.Border.Color2 = System.Drawing.Color.Black;
-            this.son5gider.OverrideFocus.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gider.OverrideFocus.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gider.OverrideFocus.Item.Border.Width = 1;
-            this.son5gider.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.son5gider.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.son5gider.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.son5gider.Size = new System.Drawing.Size(354, 384);
             this.son5gider.StateCheckedNormal.Item.Border.Color1 = System.Drawing.Color.Black;
             this.son5gider.StateCheckedNormal.Item.Border.Color2 = System.Drawing.Color.Black;
             this.son5gider.StateCheckedNormal.Item.Border.ColorAngle = 45F;
-            this.son5gider.StateCheckedNormal.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gider.StateCheckedNormal.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gider.StateCheckedNormal.Item.Border.Width = 1;
             this.son5gider.StateCheckedTracking.Item.Border.Color1 = System.Drawing.Color.Transparent;
             this.son5gider.StateCheckedTracking.Item.Border.Color2 = System.Drawing.Color.Transparent;
-            this.son5gider.StateCheckedTracking.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gider.StateCheckedTracking.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gider.StateCheckedTracking.Item.Content.ShortText.Color1 = System.Drawing.Color.Black;
             this.son5gider.StateCheckedTracking.Item.Content.ShortText.Color2 = System.Drawing.Color.Black;
             this.son5gider.StateCommon.Back.Color1 = System.Drawing.Color.White;
@@ -429,15 +429,15 @@
             this.son5gider.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.son5gider.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.son5gider.StateCommon.Border.ColorAngle = 45F;
-            this.son5gider.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gider.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gider.StateCommon.Border.Rounding = 18;
             this.son5gider.StateCommon.Border.Width = 1;
             this.son5gider.StateCommon.Item.Border.ColorAngle = 1F;
-            this.son5gider.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gider.StateCommon.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gider.StateCommon.Item.Content.ShortText.Color1 = System.Drawing.Color.Black;
             this.son5gider.StateCommon.Item.Content.ShortText.Color2 = System.Drawing.Color.Black;
             this.son5gider.StateCommon.Item.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -445,9 +445,9 @@
             this.son5gider.StateTracking.Item.Back.Color2 = System.Drawing.Color.Transparent;
             this.son5gider.StateTracking.Item.Border.Color1 = System.Drawing.Color.Transparent;
             this.son5gider.StateTracking.Item.Border.Color2 = System.Drawing.Color.Transparent;
-            this.son5gider.StateTracking.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.son5gider.StateTracking.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.son5gider.TabIndex = 5;
             // 
             // UC_ozet
@@ -485,11 +485,11 @@
 
         #endregion
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup1;
+        private Krypton.Toolkit.KryptonGroup kryptonGroup1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label mevcut_bakiye;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup3;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup2;
+        private Krypton.Toolkit.KryptonGroup kryptonGroup3;
+        private Krypton.Toolkit.KryptonGroup kryptonGroup2;
         private System.Windows.Forms.Label aylik_gider;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label aylik_gelir;
@@ -498,8 +498,8 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private ComponentFactory.Krypton.Toolkit.KryptonListBox son5gider;
-        private ComponentFactory.Krypton.Toolkit.KryptonListBox hesaplar;
-        private ComponentFactory.Krypton.Toolkit.KryptonListBox son5gelir;
+        private Krypton.Toolkit.KryptonListBox son5gider;
+        private Krypton.Toolkit.KryptonListBox hesaplar;
+        private Krypton.Toolkit.KryptonListBox son5gelir;
     }
 }

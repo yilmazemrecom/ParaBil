@@ -180,7 +180,7 @@ namespace ParaBil
             icerik.Controls.Add(uc_sil);
             uc_sil.Dock = DockStyle.Fill;
 
-            uc_sil.datagridYenile();
+            uc_sil.DatagridYenile();
         }
 
         // ayarlar butonu

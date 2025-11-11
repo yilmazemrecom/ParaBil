@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.kryptonGroup4 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
-            this.hepsinisil = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.kryptonGroup4 = new Krypton.Toolkit.KryptonGroup();
+            this.hepsinisil = new Krypton.Toolkit.KryptonButton();
             this.label4 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroup4)).BeginInit();
@@ -70,9 +70,9 @@
             this.kryptonGroup4.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.kryptonGroup4.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.kryptonGroup4.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonGroup4.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroup4.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonGroup4.StateCommon.Border.Rounding = 18;
             this.kryptonGroup4.StateCommon.Border.Width = 1;
             this.kryptonGroup4.TabIndex = 4;
@@ -89,12 +89,12 @@
             this.hepsinisil.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.hepsinisil.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.hepsinisil.OverrideDefault.Border.ColorAngle = 45F;
-            this.hepsinisil.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hepsinisil.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.hepsinisil.OverrideDefault.Border.Rounding = 18;
             this.hepsinisil.OverrideDefault.Border.Width = 1;
-            this.hepsinisil.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.hepsinisil.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.hepsinisil.Size = new System.Drawing.Size(177, 38);
             this.hepsinisil.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.hepsinisil.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
@@ -102,10 +102,10 @@
             this.hepsinisil.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.hepsinisil.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.hepsinisil.StateCommon.Border.ColorAngle = 45F;
-            this.hepsinisil.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.hepsinisil.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.hepsinisil.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hepsinisil.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.hepsinisil.StateCommon.Border.Rounding = 18;
             this.hepsinisil.StateCommon.Border.Width = 1;
             this.hepsinisil.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
@@ -117,10 +117,10 @@
             this.hepsinisil.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.hepsinisil.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.hepsinisil.StateTracking.Border.ColorAngle = 45F;
-            this.hepsinisil.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.hepsinisil.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.hepsinisil.StateTracking.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.hepsinisil.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.hepsinisil.StateTracking.Border.Rounding = 18;
             this.hepsinisil.StateTracking.Border.Width = 1;
             this.hepsinisil.TabIndex = 16;
@@ -160,8 +160,8 @@
         #endregion
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup4;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton hepsinisil;
+        private Krypton.Toolkit.KryptonGroup kryptonGroup4;
+        private Krypton.Toolkit.KryptonButton hepsinisil;
         private System.Windows.Forms.Label label4;
     }
 }

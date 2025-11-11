@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Profil));
-            this.txtBakiye = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
-            this.txtHesapAdi = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.txtBakiye = new Krypton.Toolkit.KryptonTextBox();
+            this.txtHesapAdi = new Krypton.Toolkit.KryptonTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtKategoriAdi = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
+            this.txtKategoriAdi = new Krypton.Toolkit.KryptonTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.btnHesapEkle = new ComponentFactory.Krypton.Toolkit.KryptonButton();
-            this.btnKategoriEkle = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.btnHesapEkle = new Krypton.Toolkit.KryptonButton();
+            this.btnKategoriEkle = new Krypton.Toolkit.KryptonButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.cmbKategoriTuru = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
+            this.cmbKategoriTuru = new Krypton.Toolkit.KryptonComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cmbKategoriTuru)).BeginInit();
             this.SuspendLayout();
@@ -56,10 +56,10 @@
             this.txtBakiye.StateCommon.Border.Color1 = System.Drawing.Color.Gainsboro;
             this.txtBakiye.StateCommon.Border.Color2 = System.Drawing.Color.Gainsboro;
             this.txtBakiye.StateCommon.Border.ColorAngle = 45F;
-            this.txtBakiye.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.txtBakiye.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.txtBakiye.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.txtBakiye.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.txtBakiye.StateCommon.Border.Rounding = 18;
             this.txtBakiye.StateCommon.Border.Width = 1;
             this.txtBakiye.StateCommon.Content.Color1 = System.Drawing.Color.Black;
@@ -76,10 +76,10 @@
             this.txtHesapAdi.StateCommon.Border.Color1 = System.Drawing.Color.Gainsboro;
             this.txtHesapAdi.StateCommon.Border.Color2 = System.Drawing.Color.Gainsboro;
             this.txtHesapAdi.StateCommon.Border.ColorAngle = 45F;
-            this.txtHesapAdi.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.txtHesapAdi.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.txtHesapAdi.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.txtHesapAdi.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.txtHesapAdi.StateCommon.Border.Rounding = 18;
             this.txtHesapAdi.StateCommon.Border.Width = 1;
             this.txtHesapAdi.StateCommon.Content.Color1 = System.Drawing.Color.Black;
@@ -107,10 +107,10 @@
             this.txtKategoriAdi.StateCommon.Border.Color1 = System.Drawing.Color.Gainsboro;
             this.txtKategoriAdi.StateCommon.Border.Color2 = System.Drawing.Color.Gainsboro;
             this.txtKategoriAdi.StateCommon.Border.ColorAngle = 45F;
-            this.txtKategoriAdi.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.txtKategoriAdi.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.txtKategoriAdi.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.txtKategoriAdi.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.txtKategoriAdi.StateCommon.Border.Rounding = 18;
             this.txtKategoriAdi.StateCommon.Border.Width = 1;
             this.txtKategoriAdi.StateCommon.Content.Color1 = System.Drawing.Color.Black;
@@ -140,12 +140,12 @@
             this.btnHesapEkle.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnHesapEkle.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnHesapEkle.OverrideDefault.Border.ColorAngle = 45F;
-            this.btnHesapEkle.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnHesapEkle.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.btnHesapEkle.OverrideDefault.Border.Rounding = 18;
             this.btnHesapEkle.OverrideDefault.Border.Width = 1;
-            this.btnHesapEkle.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.btnHesapEkle.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.btnHesapEkle.Size = new System.Drawing.Size(129, 36);
             this.btnHesapEkle.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnHesapEkle.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
@@ -153,10 +153,10 @@
             this.btnHesapEkle.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnHesapEkle.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnHesapEkle.StateCommon.Border.ColorAngle = 45F;
-            this.btnHesapEkle.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnHesapEkle.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnHesapEkle.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnHesapEkle.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.btnHesapEkle.StateCommon.Border.Rounding = 18;
             this.btnHesapEkle.StateCommon.Border.Width = 1;
             this.btnHesapEkle.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
@@ -168,10 +168,10 @@
             this.btnHesapEkle.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.btnHesapEkle.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.btnHesapEkle.StateTracking.Border.ColorAngle = 45F;
-            this.btnHesapEkle.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnHesapEkle.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnHesapEkle.StateTracking.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnHesapEkle.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.btnHesapEkle.StateTracking.Border.Rounding = 18;
             this.btnHesapEkle.StateTracking.Border.Width = 1;
             this.btnHesapEkle.TabIndex = 25;
@@ -190,12 +190,12 @@
             this.btnKategoriEkle.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnKategoriEkle.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnKategoriEkle.OverrideDefault.Border.ColorAngle = 45F;
-            this.btnKategoriEkle.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnKategoriEkle.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.btnKategoriEkle.OverrideDefault.Border.Rounding = 18;
             this.btnKategoriEkle.OverrideDefault.Border.Width = 1;
-            this.btnKategoriEkle.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.btnKategoriEkle.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.btnKategoriEkle.Size = new System.Drawing.Size(129, 36);
             this.btnKategoriEkle.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnKategoriEkle.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
@@ -203,10 +203,10 @@
             this.btnKategoriEkle.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnKategoriEkle.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnKategoriEkle.StateCommon.Border.ColorAngle = 45F;
-            this.btnKategoriEkle.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnKategoriEkle.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnKategoriEkle.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnKategoriEkle.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.btnKategoriEkle.StateCommon.Border.Rounding = 18;
             this.btnKategoriEkle.StateCommon.Border.Width = 1;
             this.btnKategoriEkle.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
@@ -218,10 +218,10 @@
             this.btnKategoriEkle.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.btnKategoriEkle.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.btnKategoriEkle.StateTracking.Border.ColorAngle = 45F;
-            this.btnKategoriEkle.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnKategoriEkle.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnKategoriEkle.StateTracking.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnKategoriEkle.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.btnKategoriEkle.StateTracking.Border.Rounding = 18;
             this.btnKategoriEkle.StateTracking.Border.Width = 1;
             this.btnKategoriEkle.TabIndex = 26;
@@ -285,25 +285,25 @@
             // cmbKategoriTuru
             // 
             this.cmbKategoriTuru.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmbKategoriTuru.DropBackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.InputControlStandalone;
+            this.cmbKategoriTuru.DropBackStyle = Krypton.Toolkit.PaletteBackStyle.InputControlStandalone;
             this.cmbKategoriTuru.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbKategoriTuru.DropDownWidth = 120;
             this.cmbKategoriTuru.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.cmbKategoriTuru.Location = new System.Drawing.Point(172, 499);
             this.cmbKategoriTuru.MaxDropDownItems = 10;
             this.cmbKategoriTuru.Name = "cmbKategoriTuru";
-            this.cmbKategoriTuru.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.cmbKategoriTuru.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.cmbKategoriTuru.Size = new System.Drawing.Size(261, 33);
-            this.cmbKategoriTuru.StateActive.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.cmbKategoriTuru.StateActive.ComboBox.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.cmbKategoriTuru.StateCommon.ComboBox.Back.Color1 = System.Drawing.Color.White;
             this.cmbKategoriTuru.StateCommon.ComboBox.Border.Color1 = System.Drawing.Color.Gainsboro;
             this.cmbKategoriTuru.StateCommon.ComboBox.Border.Color2 = System.Drawing.Color.Gainsboro;
             this.cmbKategoriTuru.StateCommon.ComboBox.Border.ColorAngle = 45F;
-            this.cmbKategoriTuru.StateCommon.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.cmbKategoriTuru.StateCommon.ComboBox.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.cmbKategoriTuru.StateCommon.ComboBox.Border.Rounding = 18;
             this.cmbKategoriTuru.StateCommon.ComboBox.Border.Width = 1;
             this.cmbKategoriTuru.StateCommon.ComboBox.Content.Color1 = System.Drawing.Color.Black;
@@ -315,17 +315,17 @@
             this.cmbKategoriTuru.StateCommon.Item.Back.Color2 = System.Drawing.Color.Gainsboro;
             this.cmbKategoriTuru.StateCommon.Item.Border.Color1 = System.Drawing.Color.Gainsboro;
             this.cmbKategoriTuru.StateCommon.Item.Border.Color2 = System.Drawing.Color.Gainsboro;
-            this.cmbKategoriTuru.StateCommon.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.cmbKategoriTuru.StateCommon.Item.Content.DrawFocus = ComponentFactory.Krypton.Toolkit.InheritBool.False;
+            this.cmbKategoriTuru.StateCommon.Item.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.cmbKategoriTuru.StateCommon.Item.Content.DrawFocus = Krypton.Toolkit.InheritBool.False;
             this.cmbKategoriTuru.StateCommon.Item.Content.Padding = new System.Windows.Forms.Padding(5);
             this.cmbKategoriTuru.StateCommon.Item.Content.ShortText.Color1 = System.Drawing.Color.Black;
             this.cmbKategoriTuru.StateCommon.Item.Content.ShortText.Color2 = System.Drawing.Color.Black;
             this.cmbKategoriTuru.StateCommon.Item.Content.ShortText.ColorAngle = 45F;
-            this.cmbKategoriTuru.StateNormal.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.cmbKategoriTuru.StateNormal.ComboBox.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.cmbKategoriTuru.StateNormal.ComboBox.Content.Color1 = System.Drawing.Color.Transparent;
             this.cmbKategoriTuru.StateNormal.ComboBox.Content.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.cmbKategoriTuru.TabIndex = 33;
@@ -358,18 +358,18 @@
         }
 
         #endregion
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox txtBakiye;
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox txtHesapAdi;
+        private Krypton.Toolkit.KryptonTextBox txtBakiye;
+        private Krypton.Toolkit.KryptonTextBox txtHesapAdi;
         private System.Windows.Forms.Label label1;
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox txtKategoriAdi;
+        private Krypton.Toolkit.KryptonTextBox txtKategoriAdi;
         private System.Windows.Forms.Label label3;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton btnHesapEkle;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton btnKategoriEkle;
+        private Krypton.Toolkit.KryptonButton btnHesapEkle;
+        private Krypton.Toolkit.KryptonButton btnKategoriEkle;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label6;
-        private ComponentFactory.Krypton.Toolkit.KryptonComboBox cmbKategoriTuru;
+        private Krypton.Toolkit.KryptonComboBox cmbKategoriTuru;
     }
 }

@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SilData = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
-            this.islem_sil = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.SilData = new Krypton.Toolkit.KryptonDataGridView();
+            this.islem_sil = new Krypton.Toolkit.KryptonButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.kryptonGroup2 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
-            this.kryptonGroup1 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
+            this.kryptonGroup2 = new Krypton.Toolkit.KryptonGroup();
+            this.kryptonGroup1 = new Krypton.Toolkit.KryptonGroup();
             ((System.ComponentModel.ISupportInitialize)(this.SilData)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroup2)).BeginInit();
@@ -60,15 +60,15 @@
             this.SilData.StateCommon.Background.Color1 = System.Drawing.Color.White;
             this.SilData.StateCommon.Background.Color2 = System.Drawing.Color.White;
             this.SilData.StateCommon.Background.ColorAngle = 45F;
-            this.SilData.StateCommon.BackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.GridBackgroundList;
+            this.SilData.StateCommon.BackStyle = Krypton.Toolkit.PaletteBackStyle.GridBackgroundList;
             this.SilData.StateCommon.HeaderColumn.Back.Color1 = System.Drawing.Color.White;
             this.SilData.StateCommon.HeaderColumn.Back.Color2 = System.Drawing.Color.White;
             this.SilData.StateCommon.HeaderColumn.Border.Color1 = System.Drawing.Color.Transparent;
             this.SilData.StateCommon.HeaderColumn.Border.Color2 = System.Drawing.Color.Transparent;
             this.SilData.StateCommon.HeaderColumn.Border.ColorAngle = 45F;
-            this.SilData.StateCommon.HeaderColumn.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.SilData.StateCommon.HeaderColumn.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.SilData.StateCommon.HeaderColumn.Border.Rounding = 18;
             this.SilData.StateCommon.HeaderColumn.Border.Width = 1;
             this.SilData.StateCommon.HeaderColumn.Content.Color1 = System.Drawing.Color.Black;
@@ -76,7 +76,7 @@
             this.SilData.StateCommon.HeaderColumn.Content.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SilData.StateCommon.HeaderRow.Content.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.SilData.TabIndex = 0;
-            this.SilData.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseClick);
+            this.SilData.MouseClick += new System.Windows.Forms.MouseEventHandler(this.DataGridView1_MouseClick);
             // 
             // islem_sil
             // 
@@ -90,12 +90,12 @@
             this.islem_sil.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.islem_sil.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.islem_sil.OverrideDefault.Border.ColorAngle = 45F;
-            this.islem_sil.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.islem_sil.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.islem_sil.OverrideDefault.Border.Rounding = 18;
             this.islem_sil.OverrideDefault.Border.Width = 1;
-            this.islem_sil.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.islem_sil.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.islem_sil.Size = new System.Drawing.Size(188, 54);
             this.islem_sil.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.islem_sil.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
@@ -103,10 +103,10 @@
             this.islem_sil.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.islem_sil.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.islem_sil.StateCommon.Border.ColorAngle = 45F;
-            this.islem_sil.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.islem_sil.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.islem_sil.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.islem_sil.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.islem_sil.StateCommon.Border.Rounding = 18;
             this.islem_sil.StateCommon.Border.Width = 1;
             this.islem_sil.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
@@ -118,15 +118,15 @@
             this.islem_sil.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.islem_sil.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.islem_sil.StateTracking.Border.ColorAngle = 45F;
-            this.islem_sil.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.islem_sil.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.islem_sil.StateTracking.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.islem_sil.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.islem_sil.StateTracking.Border.Rounding = 18;
             this.islem_sil.StateTracking.Border.Width = 1;
             this.islem_sil.TabIndex = 10;
             this.islem_sil.Values.Text = "Seçili İşlemi Sil";
-            this.islem_sil.Click += new System.EventHandler(this.islemdelete);
+            this.islem_sil.Click += new System.EventHandler(this.IslemDelete);
             // 
             // tableLayoutPanel1
             // 
@@ -160,9 +160,9 @@
             this.kryptonGroup2.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.kryptonGroup2.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.kryptonGroup2.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonGroup2.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroup2.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonGroup2.StateCommon.Border.Rounding = 18;
             this.kryptonGroup2.StateCommon.Border.Width = 1;
             this.kryptonGroup2.TabIndex = 4;
@@ -184,9 +184,9 @@
             this.kryptonGroup1.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.kryptonGroup1.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.kryptonGroup1.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonGroup1.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroup1.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonGroup1.StateCommon.Border.Rounding = 18;
             this.kryptonGroup1.StateCommon.Border.Width = 1;
             this.kryptonGroup1.TabIndex = 3;
@@ -199,7 +199,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "UC_Sil";
             this.Size = new System.Drawing.Size(1120, 690);
-            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView1_MouseClick);
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.DataGridView1_MouseClick);
             ((System.ComponentModel.ISupportInitialize)(this.SilData)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroup2.Panel)).EndInit();
@@ -217,10 +217,10 @@
 
         #endregion
 
-        private ComponentFactory.Krypton.Toolkit.KryptonDataGridView SilData;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton islem_sil;
+        private Krypton.Toolkit.KryptonDataGridView SilData;
+        private Krypton.Toolkit.KryptonButton islem_sil;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup1;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup2;
+        private Krypton.Toolkit.KryptonGroup kryptonGroup1;
+        private Krypton.Toolkit.KryptonGroup kryptonGroup2;
     }
 }

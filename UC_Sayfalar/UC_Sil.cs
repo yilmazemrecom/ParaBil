@@ -1,31 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
-using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
+using System.IO;
 
 namespace ParaBil.UC_Sayfalar
 {
     public partial class UC_Sil : UserControl
     {
-        private SQLiteConnection connection;
+        private readonly SQLiteConnection connection;
 
         public UC_Sil()
         {
             InitializeComponent();
             // Sınıf düzeyinde tanımlı connection nesnesini başlatın
-            connection = new SQLiteConnection("Data Source=Veritabani.db;Version=3;");
+            string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string appFolder = Path.Combine(appDataPath, "ParaBil");
+            Directory.CreateDirectory(appFolder);
+            string dbPath = Path.Combine(appFolder, "Veritabani.db");
 
-            datagridYenile();
+            connection = new SQLiteConnection($"Data Source={dbPath};Version=3;");
+
+            DatagridYenile();
         }
 
-        public void datagridYenile()
+        public void DatagridYenile()
         {
             // connection nesnesini sınıf düzeyinde tanımladığımız için burada tekrar tanımlamıyoruz
             if (connection.State == ConnectionState.Closed)
@@ -106,14 +106,14 @@ namespace ParaBil.UC_Sayfalar
         }
 
 
-        public void islemdelete(object sender, EventArgs e)
+        public void IslemDelete(object sender, EventArgs e)
         {
-            islemdelete();
+            IslemDelete();
 
 
         }
 
-        public void islemdelete()
+        public void IslemDelete()
         {
             if (SilData.SelectedRows.Count > 0)
             {
@@ -163,7 +163,7 @@ namespace ParaBil.UC_Sayfalar
 
             // Verileri güncelle
             RefreshDataGridView();
-                datagridYenile();
+                DatagridYenile();
             }
         }
 
@@ -180,7 +180,7 @@ namespace ParaBil.UC_Sayfalar
             }
         }
 
-        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
+        private void DataGridView1_MouseClick(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Right)
             {
@@ -189,7 +189,7 @@ namespace ParaBil.UC_Sayfalar
                 //deleteItem.Click += new EventHandler(islem_sil[Row]);
                 // deleteitem.click += new eventhandler(islem_sil);
                 // deleteitem tıklandığında islem_sil fonksiyonunu çalıştır
-                deleteItem.Click += new EventHandler(islemdelete);
+                deleteItem.Click += new EventHandler(IslemDelete);
 
 
 

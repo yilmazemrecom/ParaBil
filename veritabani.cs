@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Data.SQLite;
+using System.IO;
 
 namespace ParaBil
 {
@@ -15,7 +16,12 @@ namespace ParaBil
 
         public void veritabaniolustur()
         {
-            connection = new SQLiteConnection("Data Source=Veritabani.db;Version=3;");
+            string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            string appFolder = Path.Combine(appDataPath, "ParaBil");
+            Directory.CreateDirectory(appFolder);
+            string dbPath = Path.Combine(appFolder, "Veritabani.db");
+
+            connection = new SQLiteConnection($"Data Source={dbPath};Version=3;");
             connection.Open();
 
             CreateTable("CREATE TABLE IF NOT EXISTS Hesaplar (" +

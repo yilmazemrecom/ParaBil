@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtBaslik = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
-            this.btnNotEkle = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.txtBaslik = new Krypton.Toolkit.KryptonTextBox();
+            this.btnNotEkle = new Krypton.Toolkit.KryptonButton();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridViewNotlar = new ComponentFactory.Krypton.Toolkit.KryptonDataGridView();
-            this.txtIcerik = new ComponentFactory.Krypton.Toolkit.KryptonRichTextBox();
-            this.kryptonGroup1 = new ComponentFactory.Krypton.Toolkit.KryptonGroup();
+            this.dataGridViewNotlar = new Krypton.Toolkit.KryptonDataGridView();
+            this.txtIcerik = new Krypton.Toolkit.KryptonRichTextBox();
+            this.kryptonGroup1 = new Krypton.Toolkit.KryptonGroup();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNotlar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroup1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroup1.Panel)).BeginInit();
@@ -52,10 +52,10 @@
             this.txtBaslik.StateCommon.Border.Color1 = System.Drawing.Color.Gainsboro;
             this.txtBaslik.StateCommon.Border.Color2 = System.Drawing.Color.Gainsboro;
             this.txtBaslik.StateCommon.Border.ColorAngle = 45F;
-            this.txtBaslik.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.txtBaslik.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.txtBaslik.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.txtBaslik.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.txtBaslik.StateCommon.Border.Rounding = 18;
             this.txtBaslik.StateCommon.Border.Width = 1;
             this.txtBaslik.StateCommon.Content.Color1 = System.Drawing.Color.Black;
@@ -74,12 +74,12 @@
             this.btnNotEkle.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnNotEkle.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnNotEkle.OverrideDefault.Border.ColorAngle = 45F;
-            this.btnNotEkle.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnNotEkle.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.btnNotEkle.OverrideDefault.Border.Rounding = 18;
             this.btnNotEkle.OverrideDefault.Border.Width = 1;
-            this.btnNotEkle.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.btnNotEkle.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.btnNotEkle.Size = new System.Drawing.Size(129, 38);
             this.btnNotEkle.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnNotEkle.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
@@ -87,10 +87,10 @@
             this.btnNotEkle.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnNotEkle.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
             this.btnNotEkle.StateCommon.Border.ColorAngle = 45F;
-            this.btnNotEkle.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnNotEkle.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnNotEkle.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnNotEkle.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.btnNotEkle.StateCommon.Border.Rounding = 18;
             this.btnNotEkle.StateCommon.Border.Width = 1;
             this.btnNotEkle.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
@@ -102,10 +102,10 @@
             this.btnNotEkle.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.btnNotEkle.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.btnNotEkle.StateTracking.Border.ColorAngle = 45F;
-            this.btnNotEkle.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnNotEkle.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnNotEkle.StateTracking.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.btnNotEkle.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
             this.btnNotEkle.StateTracking.Border.Rounding = 18;
             this.btnNotEkle.StateTracking.Border.Width = 1;
             this.btnNotEkle.TabIndex = 25;
@@ -150,15 +150,15 @@
             this.dataGridViewNotlar.StateCommon.Background.Color1 = System.Drawing.Color.White;
             this.dataGridViewNotlar.StateCommon.Background.Color2 = System.Drawing.Color.White;
             this.dataGridViewNotlar.StateCommon.Background.ColorAngle = 45F;
-            this.dataGridViewNotlar.StateCommon.BackStyle = ComponentFactory.Krypton.Toolkit.PaletteBackStyle.GridBackgroundList;
+            this.dataGridViewNotlar.StateCommon.BackStyle = Krypton.Toolkit.PaletteBackStyle.GridBackgroundList;
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Back.Color1 = System.Drawing.Color.White;
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Back.Color2 = System.Drawing.Color.White;
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Border.Color1 = System.Drawing.Color.Transparent;
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Border.Color2 = System.Drawing.Color.Transparent;
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Border.ColorAngle = 45F;
-            this.dataGridViewNotlar.StateCommon.HeaderColumn.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.dataGridViewNotlar.StateCommon.HeaderColumn.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Border.Rounding = 18;
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Border.Width = 1;
             this.dataGridViewNotlar.StateCommon.HeaderColumn.Content.Color1 = System.Drawing.Color.Black;
@@ -177,9 +177,9 @@
             this.txtIcerik.StateCommon.Border.Color1 = System.Drawing.Color.Gainsboro;
             this.txtIcerik.StateCommon.Border.Color2 = System.Drawing.Color.Gainsboro;
             this.txtIcerik.StateCommon.Border.ColorAngle = 45F;
-            this.txtIcerik.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.txtIcerik.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.txtIcerik.StateCommon.Border.Rounding = 18;
             this.txtIcerik.StateCommon.Border.Width = 1;
             this.txtIcerik.TabIndex = 34;
@@ -202,9 +202,9 @@
             this.kryptonGroup1.StateCommon.Border.Color1 = System.Drawing.Color.White;
             this.kryptonGroup1.StateCommon.Border.Color2 = System.Drawing.Color.White;
             this.kryptonGroup1.StateCommon.Border.ColorAngle = 45F;
-            this.kryptonGroup1.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroup1.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonGroup1.StateCommon.Border.Rounding = 18;
             this.kryptonGroup1.StateCommon.Border.Width = 1;
             this.kryptonGroup1.TabIndex = 35;
@@ -234,12 +234,12 @@
 
         #endregion
 
-        private ComponentFactory.Krypton.Toolkit.KryptonTextBox txtBaslik;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton btnNotEkle;
+        private Krypton.Toolkit.KryptonTextBox txtBaslik;
+        private Krypton.Toolkit.KryptonButton btnNotEkle;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label1;
-        private ComponentFactory.Krypton.Toolkit.KryptonDataGridView dataGridViewNotlar;
-        private ComponentFactory.Krypton.Toolkit.KryptonRichTextBox txtIcerik;
-        private ComponentFactory.Krypton.Toolkit.KryptonGroup kryptonGroup1;
+        private Krypton.Toolkit.KryptonDataGridView dataGridViewNotlar;
+        private Krypton.Toolkit.KryptonRichTextBox txtIcerik;
+        private Krypton.Toolkit.KryptonGroup kryptonGroup1;
     }
 }

@@ -1,4 +1,4 @@
-﻿using ComponentFactory.Krypton.Toolkit;
+﻿using Krypton.Toolkit;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,7 +15,7 @@ namespace ParaBil.UC_Sayfalar
 {
     public partial class uc_ekle : UserControl
     {
-        private veritabani myDatabase;
+        private readonly veritabani myDatabase;
         public uc_ekle()
         {
             InitializeComponent();
@@ -27,8 +27,8 @@ namespace ParaBil.UC_Sayfalar
 
 
 
-            txtMiktar.KeyPress += new KeyPressEventHandler(txtMiktar_KeyPress);
-            cmbIslemTuru.SelectedIndexChanged += cmbIslemTuru_SelectedIndexChanged;
+            txtMiktar.KeyPress += new KeyPressEventHandler(TxtMiktar_KeyPress);
+            cmbIslemTuru.SelectedIndexChanged += CmbIslemTuru_SelectedIndexChanged;
 
         }
 
@@ -63,7 +63,7 @@ namespace ParaBil.UC_Sayfalar
 
         }
 
-        private void btnIslemEkle_Click(object sender, EventArgs e)
+        private void BtnIslemEkle_Click(object sender, EventArgs e)
         {
             int hesapID = Convert.ToInt32(cmbHesaplar.SelectedValue);
             int kategoriID = Convert.ToInt32(cmbKategori.SelectedValue);
@@ -97,7 +97,7 @@ namespace ParaBil.UC_Sayfalar
 
         
         // txtMiktar TextBox kontrolü için KeyPress olayı
-        private void txtMiktar_KeyPress(object sender, KeyPressEventArgs e)
+        private void TxtMiktar_KeyPress(object sender, KeyPressEventArgs e)
         {
             // txtMiktar'ı başlatmadan önce kontrol et
             if (txtMiktar != null)
@@ -132,7 +132,7 @@ namespace ParaBil.UC_Sayfalar
             txtAciklama.Clear();
         }
 
-        private void cmbIslemTuru_SelectedIndexChanged(object sender, EventArgs e)
+        private void CmbIslemTuru_SelectedIndexChanged(object sender, EventArgs e)
         {
             // cmbIslemTuru'nun SelectedIndexChanged olayı tetiklendiğinde çağrılır.
             // Bu olay, işlem türü seçildiğinde otomatik olarak çağrılacaktır.
