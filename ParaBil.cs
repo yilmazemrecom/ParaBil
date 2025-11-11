@@ -195,7 +195,7 @@ namespace ParaBil
         private void emre_Click(object sender, EventArgs e)
         {
             // tıklandığında web sitesine git
-            System.Diagnostics.Process.Start("https://emreylmz.com");
+            System.Diagnostics.Process.Start("https://yilmazemre.com");
 
         }
 

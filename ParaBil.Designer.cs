@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ParaBil));
             this.menu = new System.Windows.Forms.Panel();
+            this.menu_not = new Krypton.Toolkit.KryptonButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menu_sil = new Krypton.Toolkit.KryptonButton();
             this.emre = new System.Windows.Forms.Label();
@@ -44,7 +45,6 @@
             this.max = new Krypton.Toolkit.KryptonButton();
             this.close = new Krypton.Toolkit.KryptonButton();
             this.icerik = new System.Windows.Forms.Panel();
-            this.menu_not = new Krypton.Toolkit.KryptonButton();
             this.menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.header.SuspendLayout();
@@ -67,6 +67,57 @@
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(160, 634);
             this.menu.TabIndex = 16;
+            // 
+            // menu_not
+            // 
+            this.menu_not.AutoSize = true;
+            this.menu_not.Location = new System.Drawing.Point(12, 437);
+            this.menu_not.Name = "menu_not";
+            this.menu_not.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.OverrideDefault.Back.ColorAngle = 45F;
+            this.menu_not.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.OverrideDefault.Border.ColorAngle = 45F;
+            this.menu_not.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.menu_not.OverrideDefault.Border.Rounding = 18F;
+            this.menu_not.OverrideDefault.Border.Width = 1;
+            this.menu_not.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.menu_not.Size = new System.Drawing.Size(129, 38);
+            this.menu_not.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.StateCommon.Back.ColorAngle = 45F;
+            this.menu_not.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
+            this.menu_not.StateCommon.Border.ColorAngle = 45F;
+            this.menu_not.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.menu_not.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.menu_not.StateCommon.Border.Rounding = 18F;
+            this.menu_not.StateCommon.Border.Width = 1;
+            this.menu_not.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
+            this.menu_not.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.menu_not.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menu_not.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
+            this.menu_not.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
+            this.menu_not.StateTracking.Back.ColorAngle = 45F;
+            this.menu_not.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
+            this.menu_not.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
+            this.menu_not.StateTracking.Border.ColorAngle = 45F;
+            this.menu_not.StateTracking.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.menu_not.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.menu_not.StateTracking.Border.Rounding = 18F;
+            this.menu_not.StateTracking.Border.Width = 1;
+            this.menu_not.TabIndex = 19;
+            this.menu_not.TabStop = false;
+            this.menu_not.Values.DropDownArrowColor = System.Drawing.Color.Empty;
+            this.menu_not.Values.Text = "Not";
+            this.menu_not.Click += new System.EventHandler(this.menu_not_Click);
             // 
             // pictureBox1
             // 
@@ -92,7 +143,7 @@
             this.menu_sil.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_sil.OverrideDefault.Border.Rounding = 18;
+            this.menu_sil.OverrideDefault.Border.Rounding = 18F;
             this.menu_sil.OverrideDefault.Border.Width = 1;
             this.menu_sil.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.menu_sil.Size = new System.Drawing.Size(129, 38);
@@ -106,11 +157,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_sil.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_sil.StateCommon.Border.Rounding = 18;
+            this.menu_sil.StateCommon.Border.Rounding = 18F;
             this.menu_sil.StateCommon.Border.Width = 1;
             this.menu_sil.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.menu_sil.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.menu_sil.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menu_sil.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.menu_sil.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_sil.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_sil.StateTracking.Back.ColorAngle = 45F;
@@ -121,10 +172,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_sil.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_sil.StateTracking.Border.Rounding = 18;
+            this.menu_sil.StateTracking.Border.Rounding = 18F;
             this.menu_sil.StateTracking.Border.Width = 1;
             this.menu_sil.TabIndex = 17;
             this.menu_sil.TabStop = false;
+            this.menu_sil.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.menu_sil.Values.Text = "İşlemlerim";
             this.menu_sil.Click += new System.EventHandler(this.menu_sil_Click);
             // 
@@ -132,12 +184,12 @@
             // 
             this.emre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.emre.AutoSize = true;
-            this.emre.Font = new System.Drawing.Font("Century Gothic", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.emre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.emre.Location = new System.Drawing.Point(32, 609);
             this.emre.Name = "emre";
-            this.emre.Size = new System.Drawing.Size(99, 16);
+            this.emre.Size = new System.Drawing.Size(104, 13);
             this.emre.TabIndex = 16;
-            this.emre.Text = "EMREYLMZ.COM";
+            this.emre.Text = "YILMAZEMRE.COM";
             this.emre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.emre.Click += new System.EventHandler(this.emre_Click);
             // 
@@ -155,7 +207,7 @@
             this.menu_profil.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_profil.OverrideDefault.Border.Rounding = 18;
+            this.menu_profil.OverrideDefault.Border.Rounding = 18F;
             this.menu_profil.OverrideDefault.Border.Width = 1;
             this.menu_profil.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.menu_profil.Size = new System.Drawing.Size(129, 38);
@@ -169,11 +221,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_profil.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_profil.StateCommon.Border.Rounding = 18;
+            this.menu_profil.StateCommon.Border.Rounding = 18F;
             this.menu_profil.StateCommon.Border.Width = 1;
             this.menu_profil.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.menu_profil.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.menu_profil.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menu_profil.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.menu_profil.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_profil.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_profil.StateTracking.Back.ColorAngle = 45F;
@@ -184,10 +236,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_profil.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_profil.StateTracking.Border.Rounding = 18;
+            this.menu_profil.StateTracking.Border.Rounding = 18F;
             this.menu_profil.StateTracking.Border.Width = 1;
             this.menu_profil.TabIndex = 15;
             this.menu_profil.TabStop = false;
+            this.menu_profil.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.menu_profil.Values.Text = "Profil";
             this.menu_profil.Click += new System.EventHandler(this.menu_profil_Click);
             // 
@@ -205,7 +258,7 @@
             this.kryptonButton3.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButton3.OverrideDefault.Border.Rounding = 18;
+            this.kryptonButton3.OverrideDefault.Border.Rounding = 18F;
             this.kryptonButton3.OverrideDefault.Border.Width = 1;
             this.kryptonButton3.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.kryptonButton3.Size = new System.Drawing.Size(50, 50);
@@ -221,11 +274,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonButton3.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonButton3.StateCommon.Border.Rounding = 18;
+            this.kryptonButton3.StateCommon.Border.Rounding = 18F;
             this.kryptonButton3.StateCommon.Border.Width = 1;
             this.kryptonButton3.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.kryptonButton3.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.kryptonButton3.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.kryptonButton3.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.kryptonButton3.StatePressed.Back.Color1 = System.Drawing.Color.Lavender;
             this.kryptonButton3.StatePressed.Back.Color2 = System.Drawing.Color.Lavender;
             this.kryptonButton3.StatePressed.Back.ColorAngle = 45F;
@@ -235,7 +288,7 @@
             this.kryptonButton3.StatePressed.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.kryptonButton3.StatePressed.Border.Rounding = 18;
+            this.kryptonButton3.StatePressed.Border.Rounding = 18F;
             this.kryptonButton3.StatePressed.Border.Width = 1;
             this.kryptonButton3.StateTracking.Back.Color1 = System.Drawing.Color.Lavender;
             this.kryptonButton3.StateTracking.Back.Color2 = System.Drawing.Color.Lavender;
@@ -247,9 +300,10 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.kryptonButton3.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.kryptonButton3.StateTracking.Border.Rounding = 18;
+            this.kryptonButton3.StateTracking.Border.Rounding = 18F;
             this.kryptonButton3.StateTracking.Border.Width = 1;
             this.kryptonButton3.TabIndex = 14;
+            this.kryptonButton3.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.kryptonButton3.Values.Text = "";
             this.kryptonButton3.Click += new System.EventHandler(this.kryptonButton3_Click);
             // 
@@ -267,7 +321,7 @@
             this.menu_durum.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_durum.OverrideDefault.Border.Rounding = 18;
+            this.menu_durum.OverrideDefault.Border.Rounding = 18F;
             this.menu_durum.OverrideDefault.Border.Width = 1;
             this.menu_durum.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.menu_durum.Size = new System.Drawing.Size(129, 38);
@@ -281,11 +335,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_durum.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_durum.StateCommon.Border.Rounding = 18;
+            this.menu_durum.StateCommon.Border.Rounding = 18F;
             this.menu_durum.StateCommon.Border.Width = 1;
             this.menu_durum.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.menu_durum.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.menu_durum.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menu_durum.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.menu_durum.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_durum.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_durum.StateTracking.Back.ColorAngle = 45F;
@@ -296,10 +350,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_durum.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_durum.StateTracking.Border.Rounding = 18;
+            this.menu_durum.StateTracking.Border.Rounding = 18F;
             this.menu_durum.StateTracking.Border.Width = 1;
             this.menu_durum.TabIndex = 12;
             this.menu_durum.TabStop = false;
+            this.menu_durum.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.menu_durum.Values.Text = "Durum";
             this.menu_durum.Click += new System.EventHandler(this.menu_durum_Click);
             // 
@@ -317,7 +372,7 @@
             this.menu_ekle.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_ekle.OverrideDefault.Border.Rounding = 18;
+            this.menu_ekle.OverrideDefault.Border.Rounding = 18F;
             this.menu_ekle.OverrideDefault.Border.Width = 1;
             this.menu_ekle.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.menu_ekle.Size = new System.Drawing.Size(129, 38);
@@ -331,11 +386,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_ekle.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_ekle.StateCommon.Border.Rounding = 18;
+            this.menu_ekle.StateCommon.Border.Rounding = 18F;
             this.menu_ekle.StateCommon.Border.Width = 1;
             this.menu_ekle.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.menu_ekle.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.menu_ekle.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menu_ekle.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.menu_ekle.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_ekle.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_ekle.StateTracking.Back.ColorAngle = 45F;
@@ -346,10 +401,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_ekle.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_ekle.StateTracking.Border.Rounding = 18;
+            this.menu_ekle.StateTracking.Border.Rounding = 18F;
             this.menu_ekle.StateTracking.Border.Width = 1;
             this.menu_ekle.TabIndex = 11;
             this.menu_ekle.TabStop = false;
+            this.menu_ekle.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.menu_ekle.Values.Text = "Ekle";
             this.menu_ekle.Click += new System.EventHandler(this.menu_ekle_Click);
             // 
@@ -367,7 +423,7 @@
             this.menu_ozet.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_ozet.OverrideDefault.Border.Rounding = 18;
+            this.menu_ozet.OverrideDefault.Border.Rounding = 18F;
             this.menu_ozet.OverrideDefault.Border.Width = 1;
             this.menu_ozet.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.menu_ozet.Size = new System.Drawing.Size(129, 38);
@@ -381,11 +437,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_ozet.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_ozet.StateCommon.Border.Rounding = 18;
+            this.menu_ozet.StateCommon.Border.Rounding = 18F;
             this.menu_ozet.StateCommon.Border.Width = 1;
             this.menu_ozet.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.menu_ozet.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.menu_ozet.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menu_ozet.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.menu_ozet.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_ozet.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
             this.menu_ozet.StateTracking.Back.ColorAngle = 45F;
@@ -396,10 +452,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.menu_ozet.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_ozet.StateTracking.Border.Rounding = 18;
+            this.menu_ozet.StateTracking.Border.Rounding = 18F;
             this.menu_ozet.StateTracking.Border.Width = 1;
             this.menu_ozet.TabIndex = 9;
             this.menu_ozet.TabStop = false;
+            this.menu_ozet.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.menu_ozet.Values.Text = "Özet";
             this.menu_ozet.Click += new System.EventHandler(this.menu_ozet_Click);
             // 
@@ -419,10 +476,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(19, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 19);
+            this.label3.Size = new System.Drawing.Size(71, 17);
             this.label3.TabIndex = 17;
             this.label3.Text = "Hoşgeldin";
             // 
@@ -440,7 +497,7 @@
             this.min.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.min.OverrideDefault.Border.Rounding = 18;
+            this.min.OverrideDefault.Border.Rounding = 18F;
             this.min.OverrideDefault.Border.Width = 1;
             this.min.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.min.Size = new System.Drawing.Size(30, 30);
@@ -456,11 +513,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.min.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.min.StateCommon.Border.Rounding = 18;
+            this.min.StateCommon.Border.Rounding = 18F;
             this.min.StateCommon.Border.Width = 1;
             this.min.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.min.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.min.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.min.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.min.StatePressed.Back.Color1 = System.Drawing.Color.Lavender;
             this.min.StatePressed.Back.Color2 = System.Drawing.Color.Lavender;
             this.min.StatePressed.Back.ColorAngle = 45F;
@@ -470,7 +527,7 @@
             this.min.StatePressed.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.min.StatePressed.Border.Rounding = 18;
+            this.min.StatePressed.Border.Rounding = 18F;
             this.min.StatePressed.Border.Width = 1;
             this.min.StateTracking.Back.Color1 = System.Drawing.Color.Lavender;
             this.min.StateTracking.Back.Color2 = System.Drawing.Color.Lavender;
@@ -482,9 +539,10 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.min.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.min.StateTracking.Border.Rounding = 18;
+            this.min.StateTracking.Border.Rounding = 18F;
             this.min.StateTracking.Border.Width = 1;
             this.min.TabIndex = 13;
+            this.min.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.min.Values.Text = "";
             this.min.Click += new System.EventHandler(this.min_Click);
             // 
@@ -502,7 +560,7 @@
             this.max.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.max.OverrideDefault.Border.Rounding = 18;
+            this.max.OverrideDefault.Border.Rounding = 18F;
             this.max.OverrideDefault.Border.Width = 1;
             this.max.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.max.Size = new System.Drawing.Size(30, 30);
@@ -518,11 +576,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.max.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.max.StateCommon.Border.Rounding = 18;
+            this.max.StateCommon.Border.Rounding = 18F;
             this.max.StateCommon.Border.Width = 1;
             this.max.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.max.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.max.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.max.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.max.StatePressed.Back.Color1 = System.Drawing.Color.Lavender;
             this.max.StatePressed.Back.Color2 = System.Drawing.Color.Lavender;
             this.max.StatePressed.Back.ColorAngle = 45F;
@@ -532,7 +590,7 @@
             this.max.StatePressed.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.max.StatePressed.Border.Rounding = 18;
+            this.max.StatePressed.Border.Rounding = 18F;
             this.max.StatePressed.Border.Width = 1;
             this.max.StateTracking.Back.Color1 = System.Drawing.Color.Lavender;
             this.max.StateTracking.Back.Color2 = System.Drawing.Color.Lavender;
@@ -544,9 +602,10 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.max.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.max.StateTracking.Border.Rounding = 18;
+            this.max.StateTracking.Border.Rounding = 18F;
             this.max.StateTracking.Border.Width = 1;
             this.max.TabIndex = 12;
+            this.max.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.max.Values.Text = "";
             this.max.Click += new System.EventHandler(this.max_Click);
             // 
@@ -564,7 +623,7 @@
             this.close.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.close.OverrideDefault.Border.Rounding = 18;
+            this.close.OverrideDefault.Border.Rounding = 18F;
             this.close.OverrideDefault.Border.Width = 1;
             this.close.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
             this.close.Size = new System.Drawing.Size(30, 30);
@@ -580,11 +639,11 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.close.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.close.StateCommon.Border.Rounding = 18;
+            this.close.StateCommon.Border.Rounding = 18F;
             this.close.StateCommon.Border.Width = 1;
             this.close.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
             this.close.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.close.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.close.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.close.StatePressed.Back.Color1 = System.Drawing.Color.Lavender;
             this.close.StatePressed.Back.Color2 = System.Drawing.Color.Lavender;
             this.close.StatePressed.Back.ColorAngle = 45F;
@@ -594,7 +653,7 @@
             this.close.StatePressed.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.close.StatePressed.Border.Rounding = 18;
+            this.close.StatePressed.Border.Rounding = 18F;
             this.close.StatePressed.Border.Width = 1;
             this.close.StateTracking.Back.Color1 = System.Drawing.Color.Lavender;
             this.close.StateTracking.Back.Color2 = System.Drawing.Color.Lavender;
@@ -606,9 +665,10 @@
             | Krypton.Toolkit.PaletteDrawBorders.Left) 
             | Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.close.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.close.StateTracking.Border.Rounding = 18;
+            this.close.StateTracking.Border.Rounding = 18F;
             this.close.StateTracking.Border.Width = 1;
             this.close.TabIndex = 11;
+            this.close.Values.DropDownArrowColor = System.Drawing.Color.Empty;
             this.close.Values.Text = "";
             this.close.Click += new System.EventHandler(this.close_Click);
             // 
@@ -621,56 +681,6 @@
             this.icerik.Size = new System.Drawing.Size(953, 600);
             this.icerik.TabIndex = 18;
             this.icerik.Paint += new System.Windows.Forms.PaintEventHandler(this.icerik_Paint);
-            // 
-            // menu_not
-            // 
-            this.menu_not.AutoSize = true;
-            this.menu_not.Location = new System.Drawing.Point(12, 437);
-            this.menu_not.Name = "menu_not";
-            this.menu_not.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.OverrideDefault.Back.ColorAngle = 45F;
-            this.menu_not.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.OverrideDefault.Border.ColorAngle = 45F;
-            this.menu_not.OverrideDefault.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_not.OverrideDefault.Border.Rounding = 18;
-            this.menu_not.OverrideDefault.Border.Width = 1;
-            this.menu_not.PaletteMode = Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.menu_not.Size = new System.Drawing.Size(129, 38);
-            this.menu_not.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.StateCommon.Back.ColorAngle = 45F;
-            this.menu_not.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(52)))), ((int)(((byte)(134)))));
-            this.menu_not.StateCommon.Border.ColorAngle = 45F;
-            this.menu_not.StateCommon.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_not.StateCommon.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_not.StateCommon.Border.Rounding = 18;
-            this.menu_not.StateCommon.Border.Width = 1;
-            this.menu_not.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.menu_not.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.menu_not.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.menu_not.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
-            this.menu_not.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
-            this.menu_not.StateTracking.Back.ColorAngle = 45F;
-            this.menu_not.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
-            this.menu_not.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(17)))), ((int)(((byte)(44)))));
-            this.menu_not.StateTracking.Border.ColorAngle = 45F;
-            this.menu_not.StateTracking.Border.DrawBorders = ((Krypton.Toolkit.PaletteDrawBorders)((((Krypton.Toolkit.PaletteDrawBorders.Top | Krypton.Toolkit.PaletteDrawBorders.Bottom) 
-            | Krypton.Toolkit.PaletteDrawBorders.Left) 
-            | Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.menu_not.StateTracking.Border.GraphicsHint = Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.menu_not.StateTracking.Border.Rounding = 18;
-            this.menu_not.StateTracking.Border.Width = 1;
-            this.menu_not.TabIndex = 19;
-            this.menu_not.TabStop = false;
-            this.menu_not.Values.Text = "Not";
-            this.menu_not.Click += new System.EventHandler(this.menu_not_Click);
             // 
             // ParaBil
             // 
