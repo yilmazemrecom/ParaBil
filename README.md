@@ -35,6 +35,10 @@ Parabil uygulamasının genel özellikleri şu şekilde özetlenebilir:
 ## İndir
 [![](https://i.hizliresim.com/mgurzjj.png)](https://github.com/yilmazemrecom/ParaBil/releases/download/v1.2.5/parabil_setup.msi)
 ## Sürüm Notları: 
+### ParaBil v1.2.5
+- Paketler ve bağımlılıklar güncellendi.
+- Artık yönetici izni istemiyor.
+
 ### ParaBil v1.2
 - Not kısmı eklendi.
 - Veritabanı bağlantı hataları düzeltildi
