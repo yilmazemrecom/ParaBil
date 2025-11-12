@@ -63,5 +63,4 @@ Parabil uygulamasının genel özellikleri şu şekilde özetlenebilir:
 
 
 ## İletişim / Hata Bildirim
-emre@emreylmz.com <br>
-https://emreylmz.com/iletisim <br>
+emre@yilmazemre.tr
